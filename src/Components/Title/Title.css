@@ -1,0 +1,9 @@
+.title-component {
+  grid-column: 2;
+}
+
+.title-component h1 {
+  margin: 1em 0;
+  font-size: 3em;
+  color: rgba(32, 64, 86, 0.7);
+}

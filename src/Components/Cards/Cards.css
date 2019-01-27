@@ -1,0 +1,52 @@
+.cards-component {
+  grid-column: 2;
+  list-style-type: none;
+  padding: 0;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.card-course-component {
+  /* box-shadow: -2px 8px 22px 0 rgba(0, 0, 0, 0.1); */
+  -webkit-box-shadow: -2px 8px 22px 0 rgba(226, 230, 245, 0.8);
+  -moz-box-shadow: -2px 8px 22px 0 rgba(226, 230, 245, 0.8);
+  box-shadow: -2px 8px 22px 0 rgba(226, 230, 245, 0.8);
+  margin: 1%;
+  color: #204056;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  transition: box-shadow 0.25s ease-in;
+}
+
+.card-course-component:hover {
+  box-shadow: -2px 8px 22px 0 rgba(226, 230, 240, 1);
+}
+
+.card-course-component h1 {
+  font-weight: 500;
+}
+
+.card-course-component .card-course-component--image {
+  height: 18rem;
+  overflow: hidden;
+}
+.card-course-component .card-course-component--image img {
+  max-height: 80%;
+  vertical-align: bottom;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.card-course-component .card-course-component--text {
+  border-top: 1px solid #e9eaea;
+  box-sizing: border-box;
+  padding: 20px;
+}
